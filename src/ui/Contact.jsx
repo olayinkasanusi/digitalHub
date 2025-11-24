@@ -51,13 +51,13 @@ const Contact = () => {
                       <X className="w-5 h-5" />
                     </a>
                     <a
-                      href="#"
+                      href="https://linkedin.com/in/sanusiolayinka"
                       className="w-10 h-10 bg-[#111111] rounded-full flex items-center justify-center text-gray-400 hover:bg-rose-600 hover:text-white transition-all"
                     >
                       <Linkedin className="w-5 h-5" />
                     </a>
                     <a
-                      href="#"
+                      href="github.com/olayinkasanusi"
                       className="w-10 h-10 bg-[#111111] rounded-full flex items-center justify-center text-gray-400 hover:bg-rose-600 hover:text-white transition-all"
                     >
                       <Github className="w-5 h-5" />
