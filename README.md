@@ -1,18 +1,56 @@
-# React + Vite
+DigitalHub Agency Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, high-performance portfolio website for a digital agency, designed with a dark, professional aesthetic and built using React and Tailwind CSS. This single-file component showcases the agency's focus on bold design, precision engineering, and scalable growth.
 
-Currently, two official plugins are available:
+✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This portfolio is structured into several professional sections, each designed for high impact and seamless user experience:
 
-## React Compiler
+Responsive Design: Fully optimized for desktop, tablet, and mobile views.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+Dark Theme: Utilizes deep black backgrounds (#050505) and vibrant rose accents (#E11D48) for a premium feel.
 
-Note: This will impact Vite dev & build performances.
+Smooth Navigation: Fixed, translucent glass navigation bar with smooth scrolling to sections.
 
-## Expanding the ESLint configuration
+Hero Section: A powerful, minimal screen featuring a subtle gradient background that blends seamlessly into the following component.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Services/Approach: Highlights core offerings (Design, Performance, Growth) using engaging card components with hover effects.
+
+About Us: Details the company mission and growth metrics.
+
+Testimonials: Displays client success stories with star ratings.
+
+Blog/Insights: A section for sharing the agency's expertise.
+
+Contact Form: A dedicated section for lead generation and contact information.
+
+Reveal Animations: Uses an Intersection Observer hook (RevealOnScroll) for smooth fade-in effects on elements as they enter the viewport.
+
+🚀 Tech Stack
+
+Framework: React (Functional Components & Hooks)
+
+Styling: Tailwind CSS (Utility-first framework)
+
+Icons: Lucide Icons (Modern, consistent icon set)
+
+🛠️ Setup and Usage
+
+Since this project is contained within a single .jsx file, setup is straightforward in any modern React environment (like Create React App, Vite, or a platform like Canvas that handles dependencies).
+
+Dependencies: Ensure you have a running React environment with Tailwind CSS configured.
+
+File Placement: Save the provided code as DigitalHub.jsx (or App.jsx) in your components directory.
+
+Run Locally: If using a standard React setup (e.g., Vite):
+
+npm install
+npm run dev
+
+Design Notes
+
+Color Palette: Primarily deep dark grey/black (#050505, #111111) with rose accents (#E11D48 / rose-600).
+
+Typography: Uses Space Grotesk for headings and Inter for body text to maintain a modern, legible, and technical feel.
+
+Aesthetics: The design prioritizes generous spacing, rounded corners, and subtle shadows/glows to emphasize the "high-end" digital agency look.
